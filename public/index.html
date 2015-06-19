@@ -529,7 +529,7 @@ var vis = d3.select("#chart").insert("svg:svg", "h2")
 	 }
 	 
 	function evalNode(name) {
-		if(name == "Section A" || name == "Section B") {
+		if(name == "Base Map Layers" || name == "Foundation Data Layers") {
 			return "sectionParent";
 		}
 		if(name == "Main") {
@@ -614,7 +614,7 @@ function zoom(d, i) {
 	  }
 	  
 	    function evalParent(name) {
-	if(name == "Section A" || name == "Section B") {
+	if(name == "Base Map Layers" || name == "Foundation Data Layers") {
 		return true;
 		}
 		return false;
