@@ -67,6 +67,10 @@ text.mainParent {
 	display: none;
 }
 
+text.child {
+    fill: white;
+}
+
 /*
  * CONTROL OF THE COLORING ENDS HERE-------------------------------------------
  */
