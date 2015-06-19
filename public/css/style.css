@@ -1,0 +1,154 @@
+/*
+ * CONTROL ALL THE COLORING HERE-------------------------------------------
+ */
+
+/*
+ * LEGEND ELEMENTS
+ */
+
+
+#yes {
+	background: #0000CD;
+	color: white;
+}
+
+
+#no {
+	background: #FF0000; 
+	color: white; 
+}
+
+
+#na {
+	background: #696969; 
+	color: white; 
+}
+
+/*
+ * CIRCLE PACK ELEMENTS
+ */
+
+
+circle.yes-circle {
+	fill: #0000CD; 
+}
+
+
+circle.no-circle {
+	fill: #FF0000; 
+}
+
+circle.na-circle {
+	fill: #696969; 
+}
+
+
+text.parent {
+  fill: white; 
+  margin-top: 200px;
+}
+
+circle.parent {
+  fill: #808080; 
+  fill-opacity: 0.2;
+  stroke: black;
+  font-size: 10px;
+  
+}
+
+/* Section A / B Label */
+text.sectionParent {
+	font-size: 15px;
+	fill: black;
+	font-weight: bold;
+}
+
+text.mainParent {
+	display: none;
+}
+
+/*
+ * CONTROL OF THE COLORING ENDS HERE-------------------------------------------
+ */
+
+
+
+
+#_header {
+	text-align: center;
+}
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: normal;
+  src: url('BebasNeue Bold.otf') format("opentype");
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+.page-header {
+	border: 0px;
+	margin: 0px;
+}
+
+#legend {
+	width: 150px;
+	position: relative;
+	top: 150px;
+	left: 80px;
+	text-align: center;
+	border: 1px solid steelblue;
+}
+
+#legend div {
+	font-weight: bold;
+}
+
+
+#title {
+	position: relative;
+	top: 50px;
+	font-size: 45px;
+	font-weight: bold;
+	color: #2c3e50;
+	width: 100%;
+	text-align: center;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: normal;
+  src: url('css/BebasNeue Bold.otf') format("opentype");
+}
+
+text {
+  font-size: 11px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+  pointer-events: none;
+}
+
+
+
+circle {
+  fill: #ccc;
+  stroke: #999;
+  pointer-events: all;
+}
+
+
+
+circle.parent:hover {
+  stroke: #ff7f0e;
+  stroke-width: .5px;
+}
+
+circle.child {
+  pointer-events: none;
+}
+
